@@ -24,9 +24,8 @@ contador = 0
 suma_precio = 0
 
 while(True):
-    peso = input("Ingrese el peso del producto")
-    peso = float (peso)
-
+    peso = float(input("Ingrese el peso del producto"))
+    
     while (not(peso > 10 and peso < 100)):
         peso = input("Ingrese el peso del producto")
         peso = float (peso)
