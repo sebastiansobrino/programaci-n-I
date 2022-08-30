@@ -5,6 +5,7 @@ suma_edad_heroinas = 0
 suma_edad_heroes = 0
 
 
+
 while(True):
     
     heroe = input ("Ingrese el heroe o heorina")
@@ -15,11 +16,9 @@ while(True):
         heroe = heroe.lower()
 
     
-    edad = input("Ingrese la edad")
-    edad = int (edad)
+    edad = int(input("Ingrese la edad"))
     while (not(edad > 10 and edad < 100)):
-        edad = input("Ingrese la edad")
-        edad = int (edad)
+        edad = int(input("Ingrese la edad"))
 
     sexo = input ("Ingrese el sexo")
     sexo = sexo.lower()
