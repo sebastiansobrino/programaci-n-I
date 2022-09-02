@@ -36,7 +36,7 @@ def heroe_mas_alto():
             altura_maxima = altura
             Heroe_alto = heroe
 
-    input(Heroe_alto)
+    print(Heroe_alto)
 
 def heroe_mas_bajo():
 
@@ -47,7 +47,7 @@ def heroe_mas_bajo():
             altura_minima = altura
             heroe_bajo = heroe
 
-    input(heroe_bajo)
+    print(heroe_bajo)
 
 def altura_promedio():
     acumulador_de_altura = 0
@@ -56,7 +56,7 @@ def altura_promedio():
         altura = float(heroe["altura"])
         acumulador_de_altura += altura
 
-    input(acumulador_de_altura/len(heroe))
+    print(acumulador_de_altura/len(heroe))
 
 def heroe_mas_pesado():
     peso_maxima = float(lista_personajes[1]["peso"])
@@ -66,7 +66,7 @@ def heroe_mas_pesado():
             peso_maxima = peso
             heroe_pesado = heroe
 
-    input(heroe_pesado)
+    print(heroe_pesado)
 
 def heroe_menos_pesado():
     peso_minima = float(lista_personajes[1]["peso"])
@@ -76,12 +76,12 @@ def heroe_menos_pesado():
             peso_minima = peso
             heroe_menos_pesado = heroe
 
-    input(heroe_menos_pesado)
+    print(heroe_menos_pesado)
 
 
 
 while(True):
-    respuesta = input("Seleccione la opcion que desee saber: \n 1. Heroe mas alto. \n 2. Heroe mas bajo. \n 3. Altura promedio \n 4. Heroe mas pesado. \n 5. Heroe menos pesado. \n 6. Salir")
+    respuesta = input("Seleccione la opcion que desee saber: \n 1. Heroe mas alto. \n 2. Heroe mas bajo. \n 3. Altura promedio \n 4. Heroe mas pesado. \n 5. Heroe menos pesado. \n 6. Salir\n >")
     if (respuesta == "1"):
         heroe_mas_alto()
     elif (respuesta == "2"):
